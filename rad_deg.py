@@ -35,6 +35,7 @@ DtoR.grid(row=1,column=0)
 DegI_2 = Entry(DtoR,width=12,font=(24),borderwidth=15)
 deg2 = Label(DtoR,text=("deg"),font=(24))
 
+# function for solutions
 def d_r1():
     T2 = float(DegI_2.get())
     T2 = (T2/180)*np.pi
