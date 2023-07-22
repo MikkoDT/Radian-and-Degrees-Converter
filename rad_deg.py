@@ -13,6 +13,7 @@ RtoD.grid(row=0,column=0)
 RadI_1 = Entry(RtoD,width=12,font=(24),borderwidth=15)
 rad1 = Label(RtoD,text=("rad"),font=(24))
 
+# function for reset
 def r_d1():
     T1 = float(RadI_1.get())
     T1 = (T1*180)/np.pi
